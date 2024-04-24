@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "tharsheblows/basic-block",
+  "version": "0.1.0",
+  "title": "Block Examples Basic Block",
+  "keywords": [
+    "basic",
+    "boring",
+    "unimaginative",
+    "mainstream",
+    "bland",
+    "unsophisticated",
+    "unexceptional"
+  ],
+  "category": "widgets",
+  "icon": "media-interactive",
+  "description": "An example basic block",
+  "attributes": {
+    "backgroundColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "textGradient": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string",
+      "color": "#32CD32"
+    }
+  },
+  "example": {},
+  "textdomain": "tharsheblows-block-examples",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

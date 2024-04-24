@@ -1,0 +1,13 @@
+parameters:
+  level: 8
+  checkMissingIterableValueType: false
+  paths:
+    - autoload.php
+    - block-examples.php
+    - includes/
+    - src/blocks/
+  excludePaths:
+    analyseAndScan:
+      - blocks/*/build/*
+  bootstrapFiles:
+    - block-examples.php

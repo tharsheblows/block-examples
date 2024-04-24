@@ -1,0 +1,11 @@
+{
+	"config": {
+		"WP_ENVIRONMENT_TYPE": "local",
+		"WP_DEBUG": true,
+		"WP_DEBUG_DISPLAY": false,
+		"WP_DEBUG_LOG": "/var/www/html/wp-content/plugins/block-examples/debug-log.log"
+	},
+	"phpVersion": "8.2",
+	"core": "https://wordpress.org/wordpress-6.5.2.zip",
+	"plugins": [ "." ]
+}

@@ -1,0 +1,43 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.tsb-block-examples {
+
+	&__box {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		min-height: 7rem;
+		font-size: 3rem;
+		font-weight: 900;
+	}
+
+	&__text {
+
+		margin: 1rem;
+
+		// Thank you to Sarah L. Fossheim: https://fossheim.io/writing/posts/css-text-gradient/
+
+		/* Fallback: Set a background color. */
+		background-color: #fff;
+
+		/* Set the background size and repeat properties. */
+		background-size: 100%;
+		background-repeat: repeat;
+
+		/* Use the text as a mask for the background. */
+
+		/* This will show the gradient as a text color rather than element bg. */
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		-moz-background-clip: text;
+		-moz-text-fill-color: transparent;
+	}
+}
